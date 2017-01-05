@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284246BF1E0CFDBF00724057 /* PDKPinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 284246BA1E0CFDBF00724057 /* PDKPinCell.m */; };
+		284246C01E0CFDBF00724057 /* PinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284246BC1E0CFDBF00724057 /* PinsViewController.m */; };
+		284246C11E0CFDBF00724057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284246BE1E0CFDBF00724057 /* ViewController.m */; };
+		284246C41E0D155000724057 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 284246C31E0D155000724057 /* DownloadManager.m */; };
+		285E1FD11E0CE9B800DEADF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E1FD01E0CE9B800DEADF4 /* main.m */; };
+		285E1FD41E0CE9B800DEADF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E1FD31E0CE9B800DEADF4 /* AppDelegate.m */; };
+		285E1FDA1E0CE9B900DEADF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285E1FD81E0CE9B900DEADF4 /* Main.storyboard */; };
+		285E1FDC1E0CE9B900DEADF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285E1FDB1E0CE9B900DEADF4 /* Assets.xcassets */; };
+		285E1FDF1E0CE9B900DEADF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285E1FDD1E0CE9B900DEADF4 /* LaunchScreen.storyboard */; };
+		285E1FEA1E0CE9B900DEADF4 /* MindValleySampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E1FE91E0CE9B900DEADF4 /* MindValleySampleTests.m */; };
+		2895C7FB1E0EB941000B76B7 /* CacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2895C7FA1E0EB941000B76B7 /* CacheController.m */; };
+		28AFC23F1E0CF68C002C062E /* PinterestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AFC23E1E0CF68C002C062E /* PinterestSDK.framework */; };
+		31273E31E4D7C565DD914862 /* Pods_MindValleySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B701648941255862989383 /* Pods_MindValleySample.framework */; };
+		56AFB76DE4F5C29998B98C89 /* Pods_MindValleySampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9581E6F9B9D7B3359A09F4 /* Pods_MindValleySampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285E1FE61E0CE9B900DEADF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285E1FC41E0CE9B800DEADF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285E1FCB1E0CE9B800DEADF4;
+			remoteInfo = MindValleySample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284246B91E0CFDBF00724057 /* PDKPinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKPinCell.h; path = ViewControllers/PDKPinCell.h; sourceTree = "<group>"; };
+		284246BA1E0CFDBF00724057 /* PDKPinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKPinCell.m; path = ViewControllers/PDKPinCell.m; sourceTree = "<group>"; };
+		284246BB1E0CFDBF00724057 /* PinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinsViewController.h; path = ViewControllers/PinsViewController.h; sourceTree = "<group>"; };
+		284246BC1E0CFDBF00724057 /* PinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinsViewController.m; path = ViewControllers/PinsViewController.m; sourceTree = "<group>"; };
+		284246BD1E0CFDBF00724057 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewControllers/ViewController.h; sourceTree = "<group>"; };
+		284246BE1E0CFDBF00724057 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewControllers/ViewController.m; sourceTree = "<group>"; };
+		284246C21E0D155000724057 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = ResourceDownloadLibrary/DownloadManager.h; sourceTree = "<group>"; };
+		284246C31E0D155000724057 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = ResourceDownloadLibrary/DownloadManager.m; sourceTree = "<group>"; };
+		285E1FCC1E0CE9B800DEADF4 /* MindValleySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValleySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285E1FD01E0CE9B800DEADF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		285E1FD21E0CE9B800DEADF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		285E1FD31E0CE9B800DEADF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		285E1FD91E0CE9B900DEADF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		285E1FDB1E0CE9B900DEADF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285E1FDE1E0CE9B900DEADF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		285E1FE01E0CE9B900DEADF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285E1FE51E0CE9B900DEADF4 /* MindValleySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285E1FE91E0CE9B900DEADF4 /* MindValleySampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindValleySampleTests.m; sourceTree = "<group>"; };
+		285E1FEB1E0CE9B900DEADF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2895C7F91E0EB941000B76B7 /* CacheController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CacheController.h; path = ResourceDownloadLibrary/CacheController.h; sourceTree = "<group>"; };
+		2895C7FA1E0EB941000B76B7 /* CacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CacheController.m; path = ResourceDownloadLibrary/CacheController.m; sourceTree = "<group>"; };
+		28AFC23E1E0CF68C002C062E /* PinterestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinterestSDK.framework; path = "Pods/../build/Debug-iphoneos/PinterestSDK/PinterestSDK.framework"; sourceTree = "<group>"; };
+		3B9581E6F9B9D7B3359A09F4 /* Pods_MindValleySampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleySampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D04AA7AEBA6AF54444E8E39 /* Pods-MindValleySampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleySampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindValleySampleTests/Pods-MindValleySampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B701648941255862989383 /* Pods_MindValleySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1918ABB31EDAAF784B9115 /* Pods-MindValleySampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleySampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindValleySampleTests/Pods-MindValleySampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE494A1113662670ED4F2CE3 /* Pods-MindValleySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleySample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindValleySample/Pods-MindValleySample.release.xcconfig"; sourceTree = "<group>"; };
+		F2B82FC9A9DDC116C8826082 /* Pods-MindValleySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleySample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindValleySample/Pods-MindValleySample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285E1FC91E0CE9B800DEADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AFC23F1E0CF68C002C062E /* PinterestSDK.framework in Frameworks */,
+				31273E31E4D7C565DD914862 /* Pods_MindValleySample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285E1FE21E0CE9B900DEADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AFB76DE4F5C29998B98C89 /* Pods_MindValleySampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285E1FC31E0CE9B800DEADF4 = {
+			isa = PBXGroup;
+			children = (
+				285E1FCE1E0CE9B800DEADF4 /* MindValleySample */,
+				285E1FE81E0CE9B900DEADF4 /* MindValleySampleTests */,
+				285E1FCD1E0CE9B800DEADF4 /* Products */,
+				F7CDC0941080F7D17CDC6962 /* Pods */,
+				295529DC3B874E2B01471A91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		285E1FCD1E0CE9B800DEADF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FCC1E0CE9B800DEADF4 /* MindValleySample.app */,
+				285E1FE51E0CE9B900DEADF4 /* MindValleySampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285E1FCE1E0CE9B800DEADF4 /* MindValleySample */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FF81E0CEA2200DEADF4 /* ResourceDownloadLibrary */,
+				285E1FF51E0CE9E500DEADF4 /* Resources */,
+				285E1FF41E0CE9D100DEADF4 /* ViewControllers */,
+				285E1FD21E0CE9B800DEADF4 /* AppDelegate.h */,
+				285E1FD31E0CE9B800DEADF4 /* AppDelegate.m */,
+				285E1FDB1E0CE9B900DEADF4 /* Assets.xcassets */,
+				285E1FE01E0CE9B900DEADF4 /* Info.plist */,
+				285E1FCF1E0CE9B800DEADF4 /* Supporting Files */,
+			);
+			path = MindValleySample;
+			sourceTree = "<group>";
+		};
+		285E1FCF1E0CE9B800DEADF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FD01E0CE9B800DEADF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		285E1FE81E0CE9B900DEADF4 /* MindValleySampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FE91E0CE9B900DEADF4 /* MindValleySampleTests.m */,
+				285E1FEB1E0CE9B900DEADF4 /* Info.plist */,
+			);
+			path = MindValleySampleTests;
+			sourceTree = "<group>";
+		};
+		285E1FF41E0CE9D100DEADF4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				284246B91E0CFDBF00724057 /* PDKPinCell.h */,
+				284246BA1E0CFDBF00724057 /* PDKPinCell.m */,
+				284246BB1E0CFDBF00724057 /* PinsViewController.h */,
+				284246BC1E0CFDBF00724057 /* PinsViewController.m */,
+				284246BD1E0CFDBF00724057 /* ViewController.h */,
+				284246BE1E0CFDBF00724057 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		285E1FF51E0CE9E500DEADF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FF71E0CEA0000DEADF4 /* Images */,
+				285E1FF61E0CE9F600DEADF4 /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		285E1FF61E0CE9F600DEADF4 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				285E1FDD1E0CE9B900DEADF4 /* LaunchScreen.storyboard */,
+				285E1FD81E0CE9B900DEADF4 /* Main.storyboard */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		285E1FF71E0CEA0000DEADF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		285E1FF81E0CEA2200DEADF4 /* ResourceDownloadLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2895C7F91E0EB941000B76B7 /* CacheController.h */,
+				2895C7FA1E0EB941000B76B7 /* CacheController.m */,
+				284246C21E0D155000724057 /* DownloadManager.h */,
+				284246C31E0D155000724057 /* DownloadManager.m */,
+			);
+			name = ResourceDownloadLibrary;
+			sourceTree = "<group>";
+		};
+		295529DC3B874E2B01471A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AFC23E1E0CF68C002C062E /* PinterestSDK.framework */,
+				A7B701648941255862989383 /* Pods_MindValleySample.framework */,
+				3B9581E6F9B9D7B3359A09F4 /* Pods_MindValleySampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CDC0941080F7D17CDC6962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2B82FC9A9DDC116C8826082 /* Pods-MindValleySample.debug.xcconfig */,
+				DE494A1113662670ED4F2CE3 /* Pods-MindValleySample.release.xcconfig */,
+				7D04AA7AEBA6AF54444E8E39 /* Pods-MindValleySampleTests.debug.xcconfig */,
+				DC1918ABB31EDAAF784B9115 /* Pods-MindValleySampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285E1FCB1E0CE9B800DEADF4 /* MindValleySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285E1FEE1E0CE9B900DEADF4 /* Build configuration list for PBXNativeTarget "MindValleySample" */;
+			buildPhases = (
+				D260371176A76DAC8CBECBE5 /* [CP] Check Pods Manifest.lock */,
+				285E1FC81E0CE9B800DEADF4 /* Sources */,
+				285E1FC91E0CE9B800DEADF4 /* Frameworks */,
+				285E1FCA1E0CE9B800DEADF4 /* Resources */,
+				C66DF27EF69B413567D4C04E /* [CP] Embed Pods Frameworks */,
+				32751D2981D694D599AC1680 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindValleySample;
+			productName = MindValleySample;
+			productReference = 285E1FCC1E0CE9B800DEADF4 /* MindValleySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285E1FE41E0CE9B900DEADF4 /* MindValleySampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285E1FF11E0CE9B900DEADF4 /* Build configuration list for PBXNativeTarget "MindValleySampleTests" */;
+			buildPhases = (
+				150E2715513367365CCCE99D /* [CP] Check Pods Manifest.lock */,
+				285E1FE11E0CE9B900DEADF4 /* Sources */,
+				285E1FE21E0CE9B900DEADF4 /* Frameworks */,
+				285E1FE31E0CE9B900DEADF4 /* Resources */,
+				B059CEDF6831D9D2EA7D43A9 /* [CP] Embed Pods Frameworks */,
+				4FA2840DCE5494C9EA6524D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285E1FE71E0CE9B900DEADF4 /* PBXTargetDependency */,
+			);
+			name = MindValleySampleTests;
+			productName = MindValleySampleTests;
+			productReference = 285E1FE51E0CE9B900DEADF4 /* MindValleySampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285E1FC41E0CE9B800DEADF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = calcey;
+				TargetAttributes = {
+					285E1FCB1E0CE9B800DEADF4 = {
+						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
+					};
+					285E1FE41E0CE9B900DEADF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 285E1FCB1E0CE9B800DEADF4;
+					};
+				};
+			};
+			buildConfigurationList = 285E1FC71E0CE9B800DEADF4 /* Build configuration list for PBXProject "MindValleySample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285E1FC31E0CE9B800DEADF4;
+			productRefGroup = 285E1FCD1E0CE9B800DEADF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285E1FCB1E0CE9B800DEADF4 /* MindValleySample */,
+				285E1FE41E0CE9B900DEADF4 /* MindValleySampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285E1FCA1E0CE9B800DEADF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285E1FDF1E0CE9B900DEADF4 /* LaunchScreen.storyboard in Resources */,
+				285E1FDC1E0CE9B900DEADF4 /* Assets.xcassets in Resources */,
+				285E1FDA1E0CE9B900DEADF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285E1FE31E0CE9B900DEADF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		150E2715513367365CCCE99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32751D2981D694D599AC1680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindValleySample/Pods-MindValleySample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FA2840DCE5494C9EA6524D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindValleySampleTests/Pods-MindValleySampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B059CEDF6831D9D2EA7D43A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindValleySampleTests/Pods-MindValleySampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66DF27EF69B413567D4C04E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindValleySample/Pods-MindValleySample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D260371176A76DAC8CBECBE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285E1FC81E0CE9B800DEADF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2895C7FB1E0EB941000B76B7 /* CacheController.m in Sources */,
+				285E1FD41E0CE9B800DEADF4 /* AppDelegate.m in Sources */,
+				284246BF1E0CFDBF00724057 /* PDKPinCell.m in Sources */,
+				284246C01E0CFDBF00724057 /* PinsViewController.m in Sources */,
+				285E1FD11E0CE9B800DEADF4 /* main.m in Sources */,
+				284246C11E0CFDBF00724057 /* ViewController.m in Sources */,
+				284246C41E0D155000724057 /* DownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285E1FE11E0CE9B900DEADF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285E1FEA1E0CE9B900DEADF4 /* MindValleySampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285E1FE71E0CE9B900DEADF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285E1FCB1E0CE9B800DEADF4 /* MindValleySample */;
+			targetProxy = 285E1FE61E0CE9B900DEADF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		285E1FD81E0CE9B900DEADF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285E1FD91E0CE9B900DEADF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		285E1FDD1E0CE9B900DEADF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285E1FDE1E0CE9B900DEADF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285E1FEC1E0CE9B900DEADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		285E1FED1E0CE9B900DEADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285E1FEF1E0CE9B900DEADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B82FC9A9DDC116C8826082 /* Pods-MindValleySample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PinterestSDK",
+				);
+				INFOPLIST_FILE = MindValleySample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcey.MindValleySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		285E1FF01E0CE9B900DEADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE494A1113662670ED4F2CE3 /* Pods-MindValleySample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PinterestSDK",
+				);
+				INFOPLIST_FILE = MindValleySample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcey.MindValleySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		285E1FF21E0CE9B900DEADF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D04AA7AEBA6AF54444E8E39 /* Pods-MindValleySampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindValleySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcey.MindValleySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleySample.app/MindValleySample";
+			};
+			name = Debug;
+		};
+		285E1FF31E0CE9B900DEADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1918ABB31EDAAF784B9115 /* Pods-MindValleySampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindValleySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcey.MindValleySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleySample.app/MindValleySample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285E1FC71E0CE9B800DEADF4 /* Build configuration list for PBXProject "MindValleySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285E1FEC1E0CE9B900DEADF4 /* Debug */,
+				285E1FED1E0CE9B900DEADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285E1FEE1E0CE9B900DEADF4 /* Build configuration list for PBXNativeTarget "MindValleySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285E1FEF1E0CE9B900DEADF4 /* Debug */,
+				285E1FF01E0CE9B900DEADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285E1FF11E0CE9B900DEADF4 /* Build configuration list for PBXNativeTarget "MindValleySampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285E1FF21E0CE9B900DEADF4 /* Debug */,
+				285E1FF31E0CE9B900DEADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285E1FC41E0CE9B800DEADF4 /* Project object */;
+}
